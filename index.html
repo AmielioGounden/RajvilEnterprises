@@ -8,8 +8,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="styles.css" />
+
+   <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="styles.css" />
 </head>
+<a class="floating-whatsapp" href="https://wa.me/27713572938" target="_blank" aria-label="Chat on WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
 <body>
   <header class="site-header" id="top">
     <nav class="nav container">
@@ -39,7 +47,7 @@
           <p>Rajvil Enterprises delivers neat, safe and reliable electrical and solar work led by Neolyn Govender — from fault finding and wiring to solar-ready upgrades and maintenance.</p>
           <div class="hero-actions">
             <a class="btn primary" href="tel:+27713572938">Call now</a>
-            <a class="btn secondary" href="mailto:neol22gov@gmail.com">Request a quote</a>
+           <a class="btn secondary" href="#contact">Request a quote</a>
           </div>
           <div class="trust-row" aria-label="Key benefits">
             <div><strong>Fast</strong><span>response</span></div>
@@ -184,12 +192,75 @@
     </section>
   </main>
 
-  <footer class="footer">
-    <div class="container footer-grid">
-      <div><strong>Rajvil Enterprises (Pty) Ltd</strong><span>Electrical & Solar Specialist</span></div>
-      <a href="#top">Back to top ↑</a>
+  <footer class="site-footer">
+  <div class="container footer-container">
+    <div class="footer-brand">
+      <img src="assets/rajvil-phoenix-logo.png" alt="Rajvil Enterprises logo" class="footer-logo">
+      <h3>Rajvil Enterprises (Pty) Ltd</h3>
+      <p>
+        Reliable electrical and solar services for homes, businesses, and commercial clients
+        in Richards Bay and surrounding areas.
+      </p>
+
+      <div class="footer-socials">
+  <a href="tel:+27713572938" aria-label="Call Rajvil Enterprises">
+    <i class="fa-solid fa-phone"></i>
+  </a>
+
+  <a href="mailto:neol22gov@gmail.com" aria-label="Email Rajvil Enterprises">
+    <i class="fa-solid fa-envelope"></i>
+  </a>
+
+  <a href="https://wa.me/27713572938" target="_blank" aria-label="WhatsApp Rajvil Enterprises">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+</div>
     </div>
-  </footer>
+
+    <div class="footer-column">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#services">Electrical Installations</a></li>
+        <li><a href="#services">Fault Finding</a></li>
+        <li><a href="#services">Lighting Upgrades</a></li>
+        <li><a href="#solar">Solar Support</a></li>
+        <li><a href="#services">Safety Checks</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#solar">Solar</a></li>
+        <li><a href="#projects">Recent Work</a></li>
+        <li><a href="#contact">Request a Quote</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h4>Contact</h4>
+      <ul class="footer-contact">
+        <li>📞 <a href="tel:+27713572938">071 357 2938</a></li>
+        <li>✉ <a href="mailto:neol22gov@gmail.com">neol22gov@gmail.com</a></li>
+        <li>📍 Richards Bay and Surrounding Areas</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <p>© 2026 Rajvil Enterprises (Pty) Ltd. All rights reserved.</p>
+
+    <div class="footer-actions">
+      <a href="tel:+27713572938">🚨 24/7 Emergency Callout</a>
+      <a href="https://wa.me/27713572938" target="_blank">
+  <i class="fa-brands fa-whatsapp"></i> WhatsApp Us
+</a>
+      <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+    </div>
+  </div>
+</footer>
 
   <script src="script.js"></script>
 </body>

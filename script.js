@@ -10,3 +10,15 @@ if (menuButton && navLinks) {
     menuButton.setAttribute('aria-expanded', 'false');
   }));
 }
+
+//Back to the top Button
+const backToTopButton = document.querySelector('.back-to-top');
+
+if (backToTopButton) {
+  backToTopButton.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+}
