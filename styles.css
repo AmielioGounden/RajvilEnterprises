@@ -778,3 +778,11 @@ body.modal-open {
     word-break: break-word;
   }
 }
+
+.quote-helper {
+  margin: 14px 0 0;
+  max-width: 680px;
+  color: #52627a;
+  font-size: 1rem;
+  line-height: 1.7;
+}

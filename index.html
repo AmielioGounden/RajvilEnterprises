@@ -282,6 +282,9 @@
         <div>
           <span class="eyebrow">Get a quote</span>
           <h2>Tell us what you need help with.</h2>
+         <p class="quote-helper">
+  Want a faster way to get in touch? Click the WhatsApp icon in the bottom-right corner and message us directly.
+</p>
           <p></p>
           <div class="contact-details">
             <a href="tel:+27713572938">☎ 071 357 2938</a>
@@ -289,13 +292,43 @@
             <span>⌖ Richards Bay and Surrounding Areas</span>
           </div>
         </div>
-        <form class="quote-form">
-          <label>Name<input type="text" placeholder="Your name" /></label>
-          <label>Phone<input type="tel" placeholder="Your contact number" /></label>
-          <label>Service needed<select><option>Electrical repair</option><option>Solar support</option><option>Lighting installation</option><option>Commercial maintenance</option></select></label>
-          <label>Message<textarea rows="4" placeholder="Briefly describe the job"></textarea></label>
-          <button type="button" class="btn primary full">Send request</button>
-        </form>
+        <form class="quote-form" action="https://formspree.io/f/mzdnplvb" method="POST">
+  <label>
+    Name
+    <input type="text" name="name" placeholder="Your name" required />
+  </label>
+
+  <label>
+    Phone
+    <input type="tel" name="phone" placeholder="Your contact number" required />
+  </label>
+
+  <label>
+    Service needed
+    <select name="service" required>
+      <option value="">Select a service</option>
+      <option>Electrical repair</option>
+      <option>Solar support</option>
+      <option>Lighting installation</option>
+      <option>Commercial maintenance</option>
+      <option>Aircon installation</option>
+      <option>Distribution board work</option>
+    </select>
+  </label>
+
+  <label>
+    Message
+    <textarea name="message" rows="4" placeholder="Briefly describe the job" required></textarea>
+  </label>
+
+  <input type="text" name="_gotcha" style="display:none">
+
+  <button type="submit" class="btn primary full">Send request</button>
+
+  <p class="form-note">
+    By submitting this form, you agree that Rajvil Enterprises may contact you about your enquiry.
+  </p>
+</form>
       </div>
     </section>
   </main>
