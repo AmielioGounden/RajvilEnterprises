@@ -81,15 +81,12 @@ const galleryData = {
   },
 
   lighting: {
-    title: 'Lighting Installations',
+    title: 'Down Lighting Installations',
     description: 'Downlights, LED fittings, ceiling lighting and practical lighting upgrades.',
     images: [
       'assets/project-downlights-1.jpeg',
       'assets/project-downlights-2.jpeg',
-      'assets/project-downlights-3.jpeg',
-      'assets/project-led-parts.jpeg',
-      'assets/project-wiring-closeup.jpeg',
-      'assets/project-wiring-closeup-1.jpeg'
+      'assets/project-downlights-3.jpeg'
     ]
   },
 
