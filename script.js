@@ -108,7 +108,10 @@ const galleryData = {
       'assets/projects/solar-industrial-lighting/SI1.jpeg',
       'assets/projects/solar-industrial-lighting/SI2.jpeg',
       'assets/projects/solar-industrial-lighting/SI3.jpeg',
-      'assets/projects/solar-industrial-lighting/SI4.jpeg'
+      'assets/projects/solar-industrial-lighting/SI4.jpeg',
+      'assets/projects/solar-industrial-lighting/SI5.jpeg',
+      'assets/projects/solar-industrial-lighting/SI6.jpeg',
+      'assets/projects/solar-industrial-lighting/SI7.jpeg'
     ]
   },
 
