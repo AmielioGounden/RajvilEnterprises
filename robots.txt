@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rajvil.co.za/sitemap.xml
